@@ -1,0 +1,92 @@
+/* Styles pour le body de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../IMG/couverture.jpg);
+    color: white;
+    padding: 20px;
+}
+
+/* Styles pour le titre 1 */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Style le tableau*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #DDD;
+    color: black;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Styles des boutons et des liens */
+button, a {
+    background-color: #6495ED;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 10px 10px 10px;
+}
+
+button:hover, a:hover {
+    background-color: #483D8B;
+}
+
+/* Styles pour les formulaires*/
+#formulaire{
+  margin-bottom: 20px;
+  display: flex;          
+  justify-content: center; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+form {
+    display: inline;
+}
+
+input, select {
+    padding: 8px;
+    width: 300px; 
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+input[type="number"] {
+    width: auto;
+    padding: 4px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+/* Styles pour le message d'erreur*/
+.error {
+    color: white;
+    margin: 10px 0;
+}
+
+/* Styles pour les liens*/
+#liens {
+    display: flex;          
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+}
+
+

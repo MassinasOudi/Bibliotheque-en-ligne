@@ -1,0 +1,66 @@
+/* Styles pour le body de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../IMG/couverture.jpg);
+    padding: 20px; 
+    color: WHITE; 
+}
+
+/* Styles pour le titre 1 et 2 */
+h1, h2{
+    text-align: center;
+    color: WHITE;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/* Style les cellules du tableau */
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #DDD;
+    color: black;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Styles pour les boutons */
+button{
+    background-color: #6495ED;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: #483D8B; 
+}
+
+/* Styles pour les liens */
+#liens {
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    margin-top: 20px;          
+}
+
+/* Styles pour les information de l'utilisateur */
+p strong{
+  color: white;
+  text-decoration: underline;
+  font-size: 150%;
+}

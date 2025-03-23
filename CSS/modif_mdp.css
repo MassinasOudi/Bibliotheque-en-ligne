@@ -1,0 +1,89 @@
+/* Styles pour le body de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url(../IMG/couverture.jpg);
+}
+
+/* Styles pour le formulaire */
+.formulaire {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles pour le titre 1 */
+form h1 {
+    text-align: center;
+    color: #6495ED;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styles pour les boutons */
+form button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #003580;
+}
+
+button{
+    background-color: #6495ED;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 10px 10px 10px;
+}
+
+button:hover{
+    background-color: #483D8B;
+}
+
+/* Styles pour le lien */
+#liens {
+    display: flex;             
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 20px;  
+}
+
+/* Styles pour le message d'erreur */
+.error {
+    color: red;
+    margin: 10px 0;
+}
+
+/* Styles pour le message de succee */
+.success {
+    color: green;
+    margin: 10px 0;
+}
+

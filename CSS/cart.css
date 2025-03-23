@@ -1,0 +1,75 @@
+/* Styles pour le body de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../IMG/couverture.jpg);
+    margin: 0;
+    padding: 20px;
+    color: WHITE;
+}
+
+/* Styles pour le titre 1 */
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Style des listes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: BLACK;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color:  #483D8B;
+}
+
+/* Styles pour les liens de "Retirer"*/
+a{
+    background-color: #6495ED;
+    color: white;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #483D8B;
+}
+
+/* style du formulaires */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Styles pour les liens*/
+#liens {
+    margin-top: 20px;
+}
